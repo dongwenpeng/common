@@ -4,3 +4,4 @@
      - { role: repo , tags: "repo"}
      - { role: init , tags: "init"}
      - { role: zabbix , tags: "zabbix"}
+     - { role: ldap-agent , tags: "ldap-agent"}
