@@ -1,0 +1,3 @@
+Defaults:zabbix    !requiretty
+zabbix ALL=(ALL) NOPASSWD: SUPERVISORCTLZB
+Cmnd_Alias SUPERVISORCTLZB = /usr/local/bin/supervisorctl,/usr/bin/supervisorctl,/bin/supervisorctl,/sbin/hpssacli,/sbin/ss,/usr/sbin/ss,/sbin/dmidecode,/usr/sbin/dmidecode,/sbin/ethtool,/usr/sbin/ethtool,/sbin/service,/usr/sbin/service,/usr/bin/awk,/sbin/ifconfig,/sbin/iptables,/bin/netstat

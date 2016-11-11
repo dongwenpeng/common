@@ -43,6 +43,9 @@
 - name: u'create /data/scripts directory'
   file: path=/data/scripts state=directory
 
+- name: u'copy sudo_zabbix'
+  copy: src=sudo_zabbix dest=/etc/sudoers.d/zabbix mode=0655
+
 - name: u'copy bash.sh'
   copy: src=bash.sh dest=/data/scripts/bash.sh mode=0655
   tags:
